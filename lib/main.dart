@@ -12,8 +12,7 @@ void main() {
         ),
         body: Center(
             child: Image(
-          image: NetworkImage(
-              'https://favim.com/pd/1tb/preview/8/820/8201/82017/8201772.jpg'),
+          image: AssetImage('images/diamond.png'),
         )),
       ),
     ),
